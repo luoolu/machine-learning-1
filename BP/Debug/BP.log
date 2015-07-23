@@ -1,0 +1,22 @@
+﻿生成启动时间为 2015/5/29 21:37:37。
+     1>项目“E:\iflytek\BP\BP\BP.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“E:\iflytek\BP\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\BP.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\iflytek\BP\Debug\BP.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\iflytek\BP\Debug\BP.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\iflytek\BP\Debug\BP.lib" /MACHINE:X86 Debug\main.obj
+         Debug\NeuralNet.obj
+         BP.vcxproj -> E:\iflytek\BP\Debug\BP.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\iflytek\BP\Debug\BP.exe;#1" /manifest Debug\BP.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\BP.unsuccessfulbuild”。
+         正在对“Debug\BP.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\iflytek\BP\BP\BP.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.76
