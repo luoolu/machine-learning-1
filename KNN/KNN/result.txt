@@ -1,0 +1,357 @@
+************************************程序说明************************************
+*************************采用KNN算法对iris.data分类****************************
+****共有150组数据，选择模3不等于0的100组作为训练集，剩下的50组做测试数据****
+********************************************************************************
+************************************实验结果*************************************
+*************************************第1组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.244949	  ClassLabel:    Iris-setosa
+Distance:   0.264575	  ClassLabel:    Iris-setosa
+Distance:   0.264575	  ClassLabel:    Iris-setosa
+
+*************************************第2组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.331662	  ClassLabel:    Iris-setosa
+Distance:   0.346410	  ClassLabel:    Iris-setosa
+Distance:   0.360555	  ClassLabel:    Iris-setosa
+
+*************************************第3组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.300000	  ClassLabel:    Iris-setosa
+Distance:   0.316228	  ClassLabel:    Iris-setosa
+Distance:   0.346410	  ClassLabel:    Iris-setosa
+
+*************************************第4组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.223607	  ClassLabel:    Iris-setosa
+Distance:   0.300000	  ClassLabel:    Iris-setosa
+Distance:   0.300000	  ClassLabel:    Iris-setosa
+
+*************************************第5组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.412311	  ClassLabel:    Iris-setosa
+Distance:   0.469042	  ClassLabel:    Iris-setosa
+Distance:   0.547723	  ClassLabel:    Iris-setosa
+
+*************************************第6组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.100000	  ClassLabel:    Iris-setosa
+Distance:   0.141421	  ClassLabel:    Iris-setosa
+Distance:   0.173205	  ClassLabel:    Iris-setosa
+
+*************************************第7组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.282843	  ClassLabel:    Iris-setosa
+Distance:   0.300000	  ClassLabel:    Iris-setosa
+Distance:   0.360555	  ClassLabel:    Iris-setosa
+
+*************************************第8组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.264575	  ClassLabel:    Iris-setosa
+Distance:   0.374166	  ClassLabel:    Iris-setosa
+Distance:   0.387298	  ClassLabel:    Iris-setosa
+
+*************************************第9组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.223607	  ClassLabel:    Iris-setosa
+Distance:   0.223607	  ClassLabel:    Iris-setosa
+Distance:   0.244949	  ClassLabel:    Iris-setosa
+
+*************************************第10组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.141421	  ClassLabel:    Iris-setosa
+Distance:   0.173205	  ClassLabel:    Iris-setosa
+Distance:   0.264575	  ClassLabel:    Iris-setosa
+
+*************************************第11组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.346410	  ClassLabel:    Iris-setosa
+Distance:   0.346410	  ClassLabel:    Iris-setosa
+Distance:   0.374166	  ClassLabel:    Iris-setosa
+
+*************************************第12组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.223607	  ClassLabel:    Iris-setosa
+Distance:   0.300000	  ClassLabel:    Iris-setosa
+Distance:   0.331662	  ClassLabel:    Iris-setosa
+
+*************************************第13组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.200000	  ClassLabel:    Iris-setosa
+Distance:   0.244949	  ClassLabel:    Iris-setosa
+Distance:   0.300000	  ClassLabel:    Iris-setosa
+
+*************************************第14组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.768115	  ClassLabel:    Iris-setosa
+Distance:   0.781025	  ClassLabel:    Iris-setosa
+Distance:   0.793725	  ClassLabel:    Iris-setosa
+
+*************************************第15组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.360555	  ClassLabel:    Iris-setosa
+Distance:   0.412311	  ClassLabel:    Iris-setosa
+Distance:   0.412311	  ClassLabel:    Iris-setosa
+
+*************************************第16组数据**********************************
+KNN分类结果:    Iris-setosa  （正确类别:    Iris-setosa）
+3-最近邻类别: 
+Distance:   0.141421	  ClassLabel:    Iris-setosa
+Distance:   0.223607	  ClassLabel:    Iris-setosa
+Distance:   0.223607	  ClassLabel:    Iris-setosa
+
+*************************************第17组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.264575	  ClassLabel:    Iris-versicolor
+Distance:   0.458258	  ClassLabel:    Iris-versicolor
+Distance:   0.519615	  ClassLabel:    Iris-versicolor
+
+*************************************第18组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.316228	  ClassLabel:    Iris-versicolor
+Distance:   0.435890	  ClassLabel:    Iris-versicolor
+Distance:   0.458258	  ClassLabel:    Iris-versicolor
+
+*************************************第19组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.264575	  ClassLabel:    Iris-versicolor
+Distance:   0.374166	  ClassLabel:    Iris-versicolor
+Distance:   0.424264	  ClassLabel:    Iris-versicolor
+
+*************************************第20组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.509902	  ClassLabel:    Iris-versicolor
+Distance:   0.538516	  ClassLabel:    Iris-versicolor
+Distance:   0.547723	  ClassLabel:    Iris-versicolor
+
+*************************************第21组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.519615	  ClassLabel:    Iris-versicolor
+Distance:   0.547723	  ClassLabel:    Iris-versicolor
+Distance:   0.583095	  ClassLabel:    Iris-versicolor
+
+*************************************第22组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.141421	  ClassLabel:    Iris-versicolor
+Distance:   0.316228	  ClassLabel:    Iris-versicolor
+Distance:   0.346410	  ClassLabel:    Iris-versicolor
+
+*************************************第23组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.264575	  ClassLabel:    Iris-versicolor
+Distance:   0.509902	  ClassLabel:    Iris-versicolor
+Distance:   0.678233	  ClassLabel:    Iris-versicolor
+
+*************************************第24组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.331662	  ClassLabel:    Iris-versicolor
+Distance:   0.346410	  ClassLabel:    Iris-versicolor
+Distance:   0.400000	  ClassLabel:    Iris-versicolor
+
+*************************************第25组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.200000	  ClassLabel:    Iris-versicolor
+Distance:   0.264575	  ClassLabel:    Iris-versicolor
+Distance:   0.360555	  ClassLabel:    Iris-versicolor
+
+*************************************第26组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.316228	  ClassLabel:    Iris-versicolor
+Distance:   0.412311	  ClassLabel:    Iris-virginica
+Distance:   0.424264	  ClassLabel:    Iris-versicolor
+
+*************************************第27组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.141421	  ClassLabel:    Iris-versicolor
+Distance:   0.173205	  ClassLabel:    Iris-versicolor
+Distance:   0.424264	  ClassLabel:    Iris-versicolor
+
+*************************************第28组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.331662	  ClassLabel:    Iris-virginica
+Distance:   0.360555	  ClassLabel:    Iris-virginica
+Distance:   0.412311	  ClassLabel:    Iris-virginica
+
+*************************************第29组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.282843	  ClassLabel:    Iris-versicolor
+Distance:   0.316228	  ClassLabel:    Iris-versicolor
+Distance:   0.346410	  ClassLabel:    Iris-versicolor
+
+*************************************第30组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.244949	  ClassLabel:    Iris-versicolor
+Distance:   0.300000	  ClassLabel:    Iris-versicolor
+Distance:   0.374166	  ClassLabel:    Iris-versicolor
+
+*************************************第31组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.141421	  ClassLabel:    Iris-versicolor
+Distance:   0.244949	  ClassLabel:    Iris-versicolor
+Distance:   0.264575	  ClassLabel:    Iris-versicolor
+
+*************************************第32组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.141421	  ClassLabel:    Iris-versicolor
+Distance:   0.173205	  ClassLabel:    Iris-versicolor
+Distance:   0.244949	  ClassLabel:    Iris-versicolor
+
+*************************************第33组数据**********************************
+KNN分类结果:    Iris-versicolor  （正确类别:    Iris-versicolor）
+3-最近邻类别: 
+Distance:   0.387298	  ClassLabel:    Iris-versicolor
+Distance:   0.387298	  ClassLabel:    Iris-versicolor
+Distance:   0.721110	  ClassLabel:    Iris-versicolor
+
+*************************************第34组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.000000	  ClassLabel:    Iris-virginica
+Distance:   0.316228	  ClassLabel:    Iris-virginica
+Distance:   0.479583	  ClassLabel:    Iris-virginica
+
+*************************************第35组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.300000	  ClassLabel:    Iris-virginica
+Distance:   0.387298	  ClassLabel:    Iris-virginica
+Distance:   0.435890	  ClassLabel:    Iris-virginica
+
+*************************************第36组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.264575	  ClassLabel:    Iris-virginica
+Distance:   0.529150	  ClassLabel:    Iris-virginica
+Distance:   0.547723	  ClassLabel:    Iris-virginica
+
+*************************************第37组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.223607	  ClassLabel:    Iris-virginica
+Distance:   0.374166	  ClassLabel:    Iris-virginica
+Distance:   0.424264	  ClassLabel:    Iris-virginica
+
+*************************************第38组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.264575	  ClassLabel:    Iris-virginica
+Distance:   0.331662	  ClassLabel:    Iris-virginica
+Distance:   0.519615	  ClassLabel:    Iris-virginica
+
+*************************************第39组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.244949	  ClassLabel:    Iris-virginica
+Distance:   0.360555	  ClassLabel:    Iris-virginica
+Distance:   0.387298	  ClassLabel:    Iris-virginica
+
+*************************************第40组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.435890	  ClassLabel:    Iris-versicolor
+Distance:   0.663325	  ClassLabel:    Iris-virginica
+Distance:   0.678233	  ClassLabel:    Iris-virginica
+
+*************************************第41组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.264575	  ClassLabel:    Iris-virginica
+Distance:   0.412311	  ClassLabel:    Iris-virginica
+Distance:   0.678233	  ClassLabel:    Iris-virginica
+
+*************************************第42组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.346410	  ClassLabel:    Iris-virginica
+Distance:   0.387298	  ClassLabel:    Iris-virginica
+Distance:   0.469042	  ClassLabel:    Iris-virginica
+
+*************************************第43组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.100000	  ClassLabel:    Iris-virginica
+Distance:   0.331662	  ClassLabel:    Iris-virginica
+Distance:   0.374166	  ClassLabel:    Iris-virginica
+
+*************************************第44组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.412311	  ClassLabel:    Iris-virginica
+Distance:   0.883176	  ClassLabel:    Iris-virginica
+Distance:   0.927362	  ClassLabel:    Iris-virginica
+
+*************************************第45组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.538516	  ClassLabel:    Iris-virginica
+Distance:   0.583095	  ClassLabel:    Iris-virginica
+Distance:   0.663325	  ClassLabel:    Iris-virginica
+
+*************************************第46组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.244949	  ClassLabel:    Iris-virginica
+Distance:   0.387298	  ClassLabel:    Iris-virginica
+Distance:   0.458258	  ClassLabel:    Iris-virginica
+
+*************************************第47组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.244949	  ClassLabel:    Iris-virginica
+Distance:   0.264575	  ClassLabel:    Iris-virginica
+Distance:   0.346410	  ClassLabel:    Iris-virginica
+
+*************************************第48组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.223607	  ClassLabel:    Iris-virginica
+Distance:   0.316228	  ClassLabel:    Iris-virginica
+Distance:   0.316228	  ClassLabel:    Iris-virginica
+
+*************************************第49组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.244949	  ClassLabel:    Iris-virginica
+Distance:   0.374166	  ClassLabel:    Iris-virginica
+Distance:   0.387298	  ClassLabel:    Iris-virginica
+
+*************************************第50组数据**********************************
+KNN分类结果:    Iris-virginica  （正确类别:    Iris-virginica）
+3-最近邻类别: 
+Distance:   0.282843	  ClassLabel:    Iris-virginica
+Distance:   0.316228	  ClassLabel:    Iris-virginica
+Distance:   0.331662	  ClassLabel:    Iris-virginica
+
+************************************结果分析****************************************
+分类正确率：   98.000000 
